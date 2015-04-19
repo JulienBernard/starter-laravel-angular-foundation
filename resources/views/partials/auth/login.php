@@ -1,20 +1,19 @@
-<form name="loginForm" ng-controller="UserController" ng-submit="login()"
-      class="form-horizontal" novalidate>
-    <div class="form-group">
-        <div class="col-md-3">
+<form name="loginForm" ng-controller="UserController" ng-submit="login()" novalidate>
+	<div class="row">
+        <div class="small-12 medium-6 columns">
+			<label>Username</label>
             <input type="text" id="username" ng-model="username"
-                   class="form-control" placeholder="Username">
+                   class="form-control" placeholder="John">
         </div>
-    </div>
-    <div class="form-group">
-        <div class="col-md-3">
+        <div class="small-12 medium-6 columns">
+			<label>Password</label>
             <input type="password" id="password" ng-model="password"
                    class="form-control" placeholder="Password">
         </div>
     </div>
-    <div class="form-group">
-        <div class="col-md-4">
-            <button type="submit" class="btn btn-primary">Login</button>
+    <div class="row">
+        <div class="small-12 medium-6 medium-centered columns">
+            <button type="submit" class="button expand">Login</button>
         </div>
     </div>
 </form>

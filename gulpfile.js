@@ -13,11 +13,11 @@ var elixir = require('laravel-elixir');
 
 elixir(function (mix) {
   mix
-    .less(
-      'app.less'
-    )
     .styles([
-      'style.css'
+	  'normalize.css',
+	  'foundation.min.css',
+	  'foundation-icons.css',
+	  'style.css'
     ])
     .scripts([
       'libs/**/*.js',
@@ -33,8 +33,11 @@ elixir(function (mix) {
     ])
     .copy(
     'public/js/all.js.map', 'public/build/js/all.js.map'
-  )
+	)
     .copy(
     'public/css/all.css.map', 'public/build/css/all.css.map'
-  );
+	)
+	.copy(
+	'resources/fonts/**', 'public/build/css'
+	);
 });
