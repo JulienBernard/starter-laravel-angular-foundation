@@ -1,8 +1,9 @@
-# Laravel and AngularJS Starter Application
+# Laravel, AngularJS and Foundation starter kit
 
-This is a repo for a starter application for a Single Page Application featuring the modern Laravel PHP framework and Google’s acclaimed front-end framework AngularJS. Just download and install and you have a good foundation for building any application.
+This is a starter kit for a Single Page Application featuring the modern Laravel PHP framework and Google’s acclaimed front-end framework AngularJS, featured with Foundation 5.5 for the GUI. Just download and play with it to build something great!
 
 ## Features!
+The "engine" (Laravel and Angular) are powered from [the repository 'starter-laravel-angular' by Zemke](https://github.com/Zemke/starter-laravel-angular).
 
 - Single Page Application
   - HTML5 mode URLs
@@ -21,7 +22,7 @@ This is a repo for a starter application for a Single Page Application featuring
 
 ## Installation
 ```
-git clone https://github.com/Zemke/starter-laravel-angular.git
+git clone https://github.com/JulienBernard/starter-laravel-angular-foundation
 ```
 ```
 composer install --prefer-dist
@@ -45,7 +46,10 @@ Edit `.env.example` according to your environment and save as `.env`.
 - NPM
 - MySQL
 
-Have fun! Any feedback is welcome. Use Issues.
+## Notices
+For now, Foundation was added with it CSS files. Soon, I will pass on SASS files for more flexibility.
+
+Have fun! Any feedback is welcome: use Issues.
 
 ![Laravel](https://cloud.githubusercontent.com/assets/3391981/6683259/2e914726-cc84-11e4-856c-bb26bda733a0.png)
-![AngularJS](https://cloud.githubusercontent.com/assets/3391981/6683229/9e0ea694-cc83-11e4-9b2e-59524dafd069.jpg)
+![AngularJS](https://cloud.githubusercontent.com/assets/3391981/6683229/9e0ea694-cc83-11e4-9b2e-59524dafd069.jpg)![Foundation](http://foundation.zurb.com/assets/img/support/goodies/why-the-yeti.svg)

@@ -1,4 +1,31 @@
 {
+  "name": "starter-laravel-angular-foundation",
+  "version": "1.0.0",
+  "description": "Laravel 5 and AngularJS 1.3 starter kit featuring Foundation 5.5!",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulienBernard/starter-laravel-angular-foundation/"
+  },
+  "keywords": [
+    "laravel",
+    "gulp",
+    "foundation",
+    "bower",
+	"angular",
+	"GNU",
+	"starter",
+	"kit"
+  ],
+  "author": "Julien Bernard <JulienBernard>",
+  "license": "GNU Version 2",
+  "bugs": {
+    "url": "https://github.com/JulienBernard/starter-laravel-angular-foundation/issues"
+  },
+  "homepage": "https://github.com/JulienBernard/starter-laravel-angular-foundation",
   "devDependencies": {
     "gulp": "^3.8.8",
     "laravel-elixir": "*"
