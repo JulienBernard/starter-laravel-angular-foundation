@@ -8,6 +8,7 @@ angular.module('UserController', []).controller('UserController', ['$scope', 'Us
       user.$login(function (user) {
         $localStorage.token = user.token;
         $scope.getAuthenticatedUser(user);
+		$location.path('users/view/' + user.id);
       }, function (err) {
         console.log(err);
       });
