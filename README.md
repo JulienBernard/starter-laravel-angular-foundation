@@ -21,21 +21,33 @@ The "engine" (Laravel and Angular) are powered from [the repository 'starter-lar
 - And more... have a try!
 
 ## Installation
+Clone the repository
 ```
 git clone https://github.com/JulienBernard/starter-laravel-angular-foundation
 ```
+Install the requirements
 ```
 composer install --prefer-dist
 ```
 ```
 npm install
 ```
+Laravel stuff: use `artisan` to create the database (see database/migrations/)
 ```
-gulp && gulp watch
+php artisan migrate
+```
+Compile and watch any changes
+```
+gulp
 ```
 ```
-php -S localhost:8080 -t public/
+gulp watch
 ```
+Create an access at localhost:8080
+```
+php -S localhost:8080 -t public
+```
+
 Edit `.env.example` according to your environment and save as `.env`.
 
 ## Requirements
